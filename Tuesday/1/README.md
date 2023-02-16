@@ -9,4 +9,5 @@ The output should be as follows:
 ```
 agrade1: 2020A3PS0132G2020A3PS0134G (No spacing between ID numbers)
 ```
-**Note**
+> **Note**
+> Input Data is stored in format `id <space> grade` -  " 2020A3PS0456G  A"
