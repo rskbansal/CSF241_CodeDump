@@ -13,5 +13,4 @@ agrade1: 2020A3PS0132G2020A3PS0134G (No spacing between ID numbers)
 > Input Data is stored in format `id <space> grade` -  " 2020A3PS0456G  A"
 
 > **Note**
-> The grade is 14 characters away from the beginning of the ID. The number of characters in the ID is 13
-
+> The grade is 14 characters away from the beginning of the ID. The number of characters in the ID is 13.
