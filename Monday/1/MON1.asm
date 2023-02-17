@@ -21,23 +21,23 @@
 A0:	MOV 	AL,[SI+14]
 	CMP 	AL,'A'
 	JNE 	B0
-	INC		acnt
-	JMP		L
+	INC	acnt
+	JMP	L
 B0:	CMP 	AL,'B'
 	JNE 	C0
-	INC		bcnt
-	JMP		L
+	INC	bcnt
+	JMP	L
 C0:	CMP 	AL,'C'
 	JNE 	D0
-	INC		ccnt
-	JMP		L
+	INC	ccnt
+	JMP	L
 D0:	CMP 	AL,'D'
 	JNE 	E0
-	INC		dcnt
-	JMP		L
+	INC	dcnt
+	JMP	L
 E0:	CMP 	AL,'E'
 	JNE 	L
-	INC		ecnt
+	INC	ecnt
 L:	ADD 	SI,15
 	DEC 	CL
 	JNZ 	A0
